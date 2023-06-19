@@ -1,0 +1,103 @@
+.header{
+    /* Para que as informações fiquem uma embaixo da outra:*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/icons/header.svg');
+}
+
+.header .photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.header .title {
+    /*alterar para left*/
+    text-align: center;
+    font-family: 'Neue Machina';
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.information p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem;
+    font-size: 1.125rem;
+}
+
+.information p::before{
+    margin: .3rem;
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.information .job::before{
+    background-image: url('/assets/img/icons/job.svg');
+}
+
+.information .location::before{
+    background-image: url('/assets/img/icons/location.svg');
+}
+
+.information .email::before{
+    background-image: url('/assets/img/icons/email.svg');
+}
+
+.information .phone::before{
+    background-image: url('/assets/img/icons/phone.svg');
+}
+
+/*Mobile first: so sobescreve, fica + facil e menos coisas de se escrever: */
+
+@media only screen and (min-width:768px) {
+    .header {
+        display: grid;
+        grid-template-areas: 
+            "photo title" 
+            "photo information"
+        ;
+
+    }
+    .header .photo{
+        grid-area: photo;
+        margin: 0 auto;
+        width: 250px;
+        height: 250px;
+    }
+    
+    .header .title{
+        grid-area: title;
+        max-width: 200px;
+        text-align: start;
+    }
+    .header .information{
+        grid-area: information;
+    }
+
+}

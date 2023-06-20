@@ -28,20 +28,23 @@
 <body>
     <main class="main">
         <header class="header">
-            <img class="photo" src="assets/img/semfundo (1).png" alt="Foto de Stefany Kupicki">
+            <img class="photo" src="assets/img/semfundo (1).png" alt="Foto de Stefany Kupicki" class="photo profile.photo">
             
             <h1 class="title"> 
-                Olá, <br> eu sou a <br> Stefany Kupicki! 
+                Olá, <br> eu sou a <span id="profile.name">Stefany Kupicki! </span><br> 
             </h1>
            
             <div class="information"> 
-                <p class="job"> Estudante de Análise e Desenvolvimento de Sistemas </p>
-                <p class="location"> Joinville - SC </p>
+                <p class="job" id="profile.job">  
+                    Estudante de Análise e Desenvolvimento de Sistemas 
+                </p>
+                <p class="location" id="profile.location"> 
+                    Joinville - SC </p>
                 <p class="phone"> 
-                    <a href="tel:(47) 9 9707-2648">(47) 99707-2648 </a>
+                    <a href="tel:(47) 9 9707-2648" id="profile.phone"> (47) 99707-2648 </a>
                 </p>
                 <p class="email"> 
-                    <a href="mailto:stefanygabrielekupicki@gmail.com"> stefanygabrielekupicki@gmail.com </a>
+                    <a href="mailto:stefanygabrielekupicki@gmail.com" id="profile.email"> stefanygabrielekupicki@gmail.com </a>
                 </p>
             </div>
         </header>
@@ -55,7 +58,7 @@
                 <div class="skills">
                     <section class="tools">
                         <h3>Habilidades Profissionais:</h3>
-                        <ul>
+                        <ul id="profile.skills.hardSkills">
                             <li> 
                                 <img src="/assets/img/icons/tools/html-5.png" alt="HTML" title="HTML" >
                             </li>
@@ -70,7 +73,7 @@
     
                     <section class="personal">
                         <h3>Habilidades Pessoais:</h3>
-                        <ul>
+                        <ul id="profile.skills.softSkills">
                             <li> Planejamento e Organização </li>
                             <li> Pensamento Criativo </li>
                             <li> Capacidade Analítica </li>
@@ -92,7 +95,7 @@
             </button>
 
             <div class="content"> 
-                <ul class="lenguages"> 
+                <ul class="lenguages" id="profile.languages"> 
                     <li> Português | Nativo </li>
                     <li> Espanhol | Intermediário </li>
                     <li> Inglês | Básico </li>
@@ -106,7 +109,7 @@
             </button>
 
             <div class="content"> 
-                <ul class="portfolio">
+                <ul class="portfolio" id="profile.portfolio">
                     <li>
                         <h3 class="title github"> Meu primeiro portfólio: </h3>
                         <a href="https://portfoilio-stefanykupicki.netlify.app/" target="_blank">https://portfoilio-stefanykupicki.netlify.app/</a>
@@ -129,7 +132,7 @@
             </button>
 
             <div class="content"> 
-                <ul class="experience">
+                <ul class="experience" id="profile.professionalExperience">
                     <li>
                         <h3 class="title"> 
                             <div class="pink">
@@ -276,7 +279,8 @@
     </main>
 
     <script src="/assets/js/acordeon.js"></script>
-
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

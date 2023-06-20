@@ -1,0 +1,67 @@
+{
+    "name": "Stefany Kupicki",
+    "photo": "https://avatars.githubusercontent.com/u/111699307?v=4",
+    "job": "Estudante de Análise e Desenvolvimento de Sistemas",
+    "location": "Joinville - SC",
+    "phone": "(47) 99707-2648",
+    "email": "stefanygabrielekupicki@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/stefanykupicki/portfolio/master/assets/img/icons/tools/html-5.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/stefanykupicki/portfolio/master/assets/img/icons/tools/css-3.png"
+        },
+        {
+          "name": "JAVASCRIPT",
+          "logo": "https://raw.githubusercontent.com/stefanykupicki/portfolio/master/assets/img/icons/tools/javascript-img.png"
+        }
+      ],
+      "softSkills": [
+        "Planejamento e Organização",
+        "Pensamento Criativo",
+        "Trabalho em equipe",
+        "Capacidade Analítica",
+        "Ambição e auto-motivação",
+        "Flexibilidade",
+        "Comunicação"
+      ]
+    },
+    "languages": [
+      "Português BR | Nativo",
+      "Espanhol | Intermediário",
+      "Inglês | Básico"
+    ],
+    "portfolio": [
+      {
+        "name": "Meu primeiro portfólio:",
+        "url": "https://portfoilio-stefanykupicki.netlify.app/",
+        "github": true
+      },
+      {
+        "name": "Pokedex:",
+        "url": "https://projeto-pokex.netlify.app/",
+        "github": true
+      },
+      {
+        "name": "Calculadora de IMC:",
+        "url": "https://calculadora-de-imc-stef.netlify.app/",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Agente de Customer Experience - Remoto | Tiendamia",
+        "period": "Nov de 2021 - Fev de 2022",
+        "description": "Competências: Resolução de problemas | Comunicação | Confluence | JIRA | Atendimento ao cliente | Suporte ao cliente | Melhoria de processos | Trabalho em Equipe | Espanhol | Trabalho temporário - BlackFriday."
+      },
+      {
+        "name": "Estágiaria - Direito | Berkenbrock Advocacia",
+        "period": "Jun de 2020",
+        "description": "Competências: Direito de família | Direito do consumidor | Leitura e compreensão"
+      }
+    ]
+  }

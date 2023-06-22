@@ -58,11 +58,15 @@
 }
 
 .information .job::before{
-    background-image: url('/assets/img/icons/job.svg');
+    background-image: url('/assets/img/icons/job.svg');    
+    width: 20px;
+    height: 22px;
 }
 
 .information .location::before{
     background-image: url('/assets/img/icons/location.svg');
+    width: 20px;
+    height: 22px;
 }
 
 .information .email::before{
@@ -71,6 +75,21 @@
 
 .information .phone::before{
     background-image: url('/assets/img/icons/phone.svg');
+    width: 20px;
+    height: 19px;
+}
+
+.information .github1::before{
+    background-image: url('/assets/img/icons/github1.svg');
+    margin: 0.25rem;
+    width: 25px;
+    height: 25px;
+}
+
+.information .linkedin1::before{
+    background-image: url('/assets/img/icons/brand_linkedin\ \(1\).svg');
+    width: 20px;
+    height: 20px;
 }
 
 /*Mobile first: so sobescreve, fica + facil e menos coisas de se escrever: */

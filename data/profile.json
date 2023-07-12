@@ -9,15 +9,15 @@
     "hardSkills": [
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/stefanykupicki/portfolio/master/assetsimg/icons/tools/html-5.png"
+        "logo": "https://raw.githubusercontent.com/stefanykupicki/portfolio/master/assets/img/icons/tools/html-5.png"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/stefanykupicki/portfolio/master/assetsimg/icons/tools/css-3.png"
+        "logo": "https://raw.githubusercontent.com/stefanykupicki/portfolio/master/assets/img/icons/tools/css-3.png"
       },
       {
         "name": "JAVASCRIPT",
-        "logo": "https://raw.githubusercontent.com/stefanykupicki/portfolio/master/assetsimg/icons/tools/javascript-img.png"
+        "logo": "https://raw.githubusercontent.com/stefanykupicki/portfolio/master/assets/img/icons/tools/javascript-img.png"
       }
     ],
     "softSkills": [

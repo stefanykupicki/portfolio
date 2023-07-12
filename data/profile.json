@@ -6,20 +6,6 @@
   "phone": "(47) 99707-2648",
   "email": "stefanygabrielekupicki@gmail.com",
   "skills": {
-    "hardSkills": [
-      {
-        "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/stefanykupicki/portfolio/master/assets/img/icons/tools/html-5.png"
-      },
-      {
-        "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/stefanykupicki/portfolio/master/assets/img/icons/tools/css-3.png"
-      },
-      {
-        "name": "JAVASCRIPT",
-        "logo": "https://raw.githubusercontent.com/stefanykupicki/portfolio/master/assets/img/icons/tools/javascript-img.png"
-      }
-    ],
     "softSkills": [
       "Planejamento e Organização",
       "Pensamento Criativo",
